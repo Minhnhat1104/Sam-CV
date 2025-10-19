@@ -19,7 +19,7 @@ body {
 .sidebar {
   background: #2c5282;
   color: white;
-  width: 37%;
+  width: 38%;
   padding: 40px 30px;
 }
 .profile-img {
@@ -108,7 +108,7 @@ body {
 }
 
 .experience-item.my-project {
-  margin-top: 160px;
+  margin-top: 180px;
   padding-top: 40px;
 }
 
@@ -131,8 +131,7 @@ ul li {
 }
 
 .icon {
-  width: 14px;
-  height: 14px;
+  width: 16px;
   margin-right: 8px;
   transform: translateY(5px);
 }
