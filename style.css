@@ -7,17 +7,19 @@ body {
   font-family: Roboto;
   line-height: 1.6;
   color: #333;
+  background: #d5d5d5;
 }
 .container {
   display: flex;
-  max-width: 1200px;
+  width: 210mm;
+  height: calc(297mm * 2);
   margin: 0 auto;
   background: white;
 }
 .sidebar {
   background: #2c5282;
   color: white;
-  width: 35%;
+  width: 37%;
   padding: 40px 30px;
 }
 .profile-img {
@@ -55,13 +57,13 @@ body {
 .skill-item:before {
   content: "";
   display: block;
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
   background: #fff;
   position: absolute;
   border-radius: 999px;
   left: 0;
-  top: 10px;
+  top: 9px;
 }
 .main-content {
   width: 65%;
@@ -104,6 +106,12 @@ body {
   font-size: 16px;
   margin-bottom: 5px;
 }
+
+.experience-item.my-project {
+  margin-top: 160px;
+  padding-top: 40px;
+}
+
 .meta {
   color: #718096;
   font-size: 13px;
@@ -123,8 +131,8 @@ ul li {
 }
 
 .icon {
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
+  width: 14px;
+  height: 14px;
+  margin-right: 8px;
   transform: translateY(5px);
 }
